@@ -1,0 +1,57 @@
+h2 {
+  font-weight: 300;
+  font-size: 50px;
+}
+
+h2.blog-post-title {
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.post-heading {
+  display: flex;
+}
+.post-heading h3 {
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 2;
+}
+.links a {
+  color: cornflowerblue !important;
+  text-decoration: underline !important;
+}
+
+@media (max-width: 768px) {
+  .blog-card {
+    width: 300px !important;
+  }
+  .blog-card-image {
+    width: 300px !important;
+  }
+}
+#firstColumn {
+  background-color: blue;
+  height: 300px;
+}
+
+#secondColumn {
+  background-color: green;
+  height: 300px;
+}
+#thirdColumn {
+  background-color: yellow;
+  height: 300px;
+}
+.first {
+  background-color: teal;
+  height: 100px;
+}
+.second {
+  background-color: tomato;
+  height: 100px;
+}
+.third {
+  background-color: violet;
+  height: 100px;
+}
